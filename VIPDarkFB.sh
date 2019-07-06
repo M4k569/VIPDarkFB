@@ -20,9 +20,9 @@ echo $B1"=========================="
 
 
 echo $G1"1.Login Dulu"
-echo $Y1"2.Hack Fb target"
-echo $P1"3.Spam-Sms"
-echo $B1"Tembak-Kuota All Operator"
+echo $Y1"2.Hack Fb target 80% work"
+echo $P1"3.Spam-Sms 100% work"
+echo $B1"4.Tembak-Kuota All Operator 100% work"
 
 echo $B1"╭──[Masukkan Pilihan Anda]>"
 read -p"╰───────root@Mr.Miko KW=•>" MikoKW;
